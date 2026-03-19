@@ -1,41 +1,36 @@
 ##########
-# collectionbuilder-csv
-# Jekyll Digital Collection Generator
+# HOME PAGE SETTINGS
 ##########
 
-##########
-# URL VARIABLES
-url: "https://juanbardina.github.io"
-baseurl: "/Kiki"
-source-code: "https://github.com/juanbardina/Kiki"
+# Pick one of your 'objectid' names from posters.csv to be the main image
+featured-image: "poster_01"
+# This can be the same ID; it creates the background behind the title
+home-banner-image: "poster_01"
+
+# Button on the home page
+home-button-text: "Explore the Archive"
+home-button-link: "/browse"
 
 ##########
-# SITE SETTINGS
-title: "Reagan-Bush Era Punk Poster Archive"
-tagline: "Visual Politics and DIY Aesthetics (1980-1992)"
-description: "A digital collection of political punk posters and flyers from the Reagan and Bush administrations."
-keywords: "punk; reagan; bush; political posters; archives; DIY"
-author: "Juan Bardina"
+# COLOR SETTINGS
+##########
+
+# This will give your site a "Punk/DIY" look (Black header, Red accents)
+navbar-color: "#000000"
+navbar-text-color: "#ffffff"
+boot-theme-colors: 
+  primary: "#cc0000"
+  secondary: "#6c757d"
+  success: "#28a745"
+  info: "#17a2b8"
+  warning: "#ffc107"
+  danger: "#dc3545"
+  light: "#f8f9fa"
+  dark: "#343a40"
 
 ##########
-# COLLECTION SETTINGS
-# Your CSV file in the _data folder must be named 'posters.csv'
-metadata: "posters"
-
+# EXTRAS
 ##########
-# ORGANIZATION SETTINGS
-organization-name: "Stanford Digital Humanities Archive"
-organization-link: "https://history.stanford.edu/"
-organization-logo-banner: ""
-organization-logo-nav: ""
 
-##########
-# ROBOTS EXCLUDE
-# noindex: true 
-
-##########
-# BUILD SETTINGS 
-lib-assets: "/assets/lib"
-exclude: [docs/, Rakefile, rakelib/, README.md, LICENSE, CITATION.cff, CODE_OF_CONDUCT.md, CONTRIBUTING.md, SECURITY.md]
-sass:
-  style: compressed
+# Keep this as true to show the "Sample Items" on the home page
+home-featured-objects: true
