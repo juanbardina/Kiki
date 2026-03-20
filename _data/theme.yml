@@ -14,7 +14,7 @@ home-button-link: "/browse"
 ##########
 # COLOR SETTINGS
 ##########
-
+font-cdn: '<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">'
 # This gives the site a Black header and Red accents (Punk/DIY aesthetic)
 navbar-color: "#000000"
 navbar-text-color: "#ffffff"
