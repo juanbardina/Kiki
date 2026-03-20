@@ -1,1 +1,12 @@
+/* Top banner title */
+#home-title-box h1 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
 
+/* Tagline */
+#home-title-box p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.1rem;
+}
