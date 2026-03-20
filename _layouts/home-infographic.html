@@ -2,7 +2,36 @@
 # Default home page with boxes providing collection stats
 layout: page
 ---
-<div class="row">
+
+<!-- Banner -->
+<div style="background-image: url('{{ "/assets/img/banner.jpg" | relative_url }}'); 
+            height: 400px; 
+            background-size: cover; 
+            background-position: center;
+            position: relative;">
+
+  <!-- Overlay (improves readability) -->
+  <div style="background: rgba(0,0,0,0.4); 
+              position: absolute; 
+              top: 0; 
+              left: 0; 
+              width: 100%; 
+              height: 100%;"></div>
+
+  <!-- Title centered on banner -->
+  <div style="position: absolute; 
+              top: 50%; 
+              left: 50%; 
+              transform: translate(-50%, -50%); 
+              color: white; 
+              text-align: center;">
+    <h1>Reagan-Bush Era Punk Poster Archive</h1>
+    <p>Visual Politics and DIY Aesthetics (1980-1992)</p>
+  </div>
+
+</div>
+
+<div class="row mt-4">
 
   <div class="col-md-8">
 
@@ -10,6 +39,7 @@ layout: page
     {% include index/carousel.html title="Sample Items" %}
     
   </div>
+
   <div class="col-md-4">  
 
     {% include index/time.html %}
@@ -21,6 +51,7 @@ layout: page
     {% include index/content.html %}
 
   </div>
+
   <div class="col-md-12">
 
     {% include index/data-download.html %}
