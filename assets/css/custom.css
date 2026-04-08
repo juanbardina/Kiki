@@ -1,9 +1,9 @@
-/* --- Existing Styles --- */
+/* --- Home Page Banner Styles --- */
 
 /* Top banner title */
 #home-title-box h1 {
     font-family: 'Oswald', sans-serif;
-    font-weight: 500;
+    font-weight: 500;   
     letter-spacing: 1px;
 }
 
@@ -13,33 +13,42 @@
     font-size: 1.1rem;
 }
 
-/* --- New Navigation Bar Fixes --- */
+/* --- Navigation Bar Customization --- */
 
-/* 1. Color and Font Size for the Menu */
 .navbar-nav .nav-link {
-    /* Pure white so it's visible on the black bar */
-    color: #ffffff !important; 
+    /* Color: Bright Electric Purple/Magenta */
+    color: #bf00ff !important; 
     
-    /* Larger size and bold weight */
-    font-size: 1.25rem !important; 
-    font-weight: 700 !important;
+    /* Font style: Thinner letters and clean look */
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: 300 !important; 
+    font-size: 1.15rem !important; 
     
-    /* Using 'Oswald' to match your banner title for a consistent Punk look */
-    font-family: 'Oswald', sans-serif !important;
+    /* Text layout */
     text-transform: uppercase;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
+    padding-left: 12px !important;
+    padding-right: 12px !important;
 }
 
-/* 2. Style the "User's Guide" Icon specifically */
+/* Style the "User's Guide" Icon specifically to match */
 .navbar-nav .nav-link i {
-    color: #ffffff !important;
-    font-size: 1.4rem; 
-    margin-right: 8px;
+    color: #bf00ff !important;
+    font-size: 1.25rem; 
+    margin-right: 6px;
     vertical-align: middle;
 }
 
-/* 3. Hover Effect (Turns red when you point at it) */
+/* Hover effect: Turns pure white when you point at a link */
 .navbar-nav .nav-link:hover {
-    color: #ff0000 !important;
+    color: #ffffff !important;
     text-decoration: underline;
+    background-color: rgba(191, 0, 255, 0.1); /* Very faint purple glow on hover */
+    border-radius: 4px;
+}
+
+/* Ensure the 'Active' page link is a slightly brighter purple or white */
+.navbar-nav .nav-link.active {
+    color: #ffffff !important;
+    border-bottom: 1px solid #bf00ff;
 }
