@@ -4,7 +4,7 @@ layout: about
 permalink: /guide.html
 ---
 
-### Navigating the Archive
+### USER GUIDE - Navigating the Archive
 
 This digital collection preserves the ephemeral "street art" and DIY publications of the American punk scene from **1980 to 1992**. Use this guide to make the most of the research tools provided.
 
