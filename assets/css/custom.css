@@ -1,3 +1,5 @@
+/* --- Existing Styles --- */
+
 /* Top banner title */
 #home-title-box h1 {
     font-family: 'Oswald', sans-serif;
@@ -9,4 +11,35 @@
 #home-title-box p {
     font-family: 'Open Sans', sans-serif;
     font-size: 1.1rem;
+}
+
+/* --- New Navigation Bar Fixes --- */
+
+/* 1. Color and Font Size for the Menu */
+.navbar-nav .nav-link {
+    /* Pure white so it's visible on the black bar */
+    color: #ffffff !important; 
+    
+    /* Larger size and bold weight */
+    font-size: 1.25rem !important; 
+    font-weight: 700 !important;
+    
+    /* Using 'Oswald' to match your banner title for a consistent Punk look */
+    font-family: 'Oswald', sans-serif !important;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* 2. Style the "User's Guide" Icon specifically */
+.navbar-nav .nav-link i {
+    color: #ffffff !important;
+    font-size: 1.4rem; 
+    margin-right: 8px;
+    vertical-align: middle;
+}
+
+/* 3. Hover Effect (Turns red when you point at it) */
+.navbar-nav .nav-link:hover {
+    color: #ff0000 !important;
+    text-decoration: underline;
 }
